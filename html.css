@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.container {
+  background-color: rgba(0, 133, 126, 0.753);
+  margin: 20px;
+  padding: 20px;
+}
+
+p {
+  color: white;
+  /* text-decoration: line-through; */
+  text-indent: 60px;
+  /* letter-spacing: -1px; */
+  line-height: 1;
+  word-spacing: 10px;
+  /* white-space: nowrap; */
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-shadow: 0px 10px black;
+}

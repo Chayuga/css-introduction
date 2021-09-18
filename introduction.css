@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+
+* {
+  color: gray;
+  /* background-color: white; */
+  font-family: "Style Script", cursive;
+}
+
+body {
+  /* background-image: url("images/flower-bg.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+}
+
+.secondDiv {
+  color: rgb(26, 26, 153);
+  background-color: black !important;
+}
+
+.secondDiv:hover {
+  color: white;
+  background-color: blueviolet;
+}
+
+.firstDiv--unhide {
+  color: brown;
+  padding: 30px;
+  background-color: black;
+}
+
+.ugali,
+.mboga,
+.chai {
+  color: yellow;
+  font-style: italic;
+  margin: 20px;
+}
+
+.form__submit--disabled {
+  color: rgb(220, 108, 235);
+  background-color: gray;
+}
+
+/* End of form - BEM */
+/* HSL - Hue Saturation Lightness */
+
+.div__background {
+  padding: 60px 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  display: flex;
+  /* background-image: url("images/flower-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  top: 0px;
+  background-position: 0px 0px; */
+  background: url("images/flower-bg.jpg") no-repeat right top;
+}
+
+.container p {
+  color: black;
+  margin: 10px;
+}
+
+/* 
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background (shorthand property)
+*/

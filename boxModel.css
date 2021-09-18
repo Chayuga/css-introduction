@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.boxModel {
+  background-color: rgb(190, 157, 113);
+  margin: 20px;
+  padding: 50px;
+  border: 15px solid blue;
+}
+
+img {
+  background-color: chartreuse;
+  margin: 20px;
+  padding: 50px;
+  border: 15px solid rgb(0, 0, 3);
+}
+
+.model__HW {
+  background-color: rgb(80, 52, 17);
+  color: white;
+
+  border: 15px solid rgb(21, 177, 7);
+  margin: 2px 20px 20px 20px;
+
+  padding: 50px;
+  width: 700px;
+  /* height: 25px; */
+}
+
+.model__HW h2 {
+  background-color: black;
+}
+
+.outline {
+  margin: 20px;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  border: 15px solid rgb(202, 79, 7);
+  /* outline-style: solid;
+  outline-color: blueviolet;
+  outline-width: 10px;
+  outline-offset: 5px; */
+
+  outline: rgb(82, 66, 97) dashed thick;
+}
+
+/* 
+outline-style -
+outline-color -
+outline-width -
+outline-offset -
+outline -
+*/

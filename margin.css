@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  /* background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2015/09/07/800175/ea3b2a902a0dc97e6b09099c24a83f49-700.jpg"); */
+
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: gray;
+  border: 1px solid black;
+}
+
+/* .margins {
+  margin: 20px;
+}
+
+.margin {
+  width: 80%;
+  margin: 10px auto;
+} */
+
+/* .margins {
+  margin-top: 25px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.padding {
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+} */
+
+.margins {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.margins .inner {
+  background-color: black;
+  width: inherit;
+  margin: 0 auto;
+  /* width: 80%; */
+}
+
+/* 
+auto
+length
+%
+initial
+inherit
+*/

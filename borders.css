@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(2, 119, 119, 0.2);
+}
+.main {
+  align-items: center;
+  padding: 70px;
+}
+
+.all,
+.bottom,
+.rounded,
+.left {
+  padding: 20px;
+}
+
+/********** Start of borders **********/
+
+.all {
+  border: 5px maroon;
+  border-style: dotted dashed solid double;
+}
+
+.bottom {
+  border-bottom: 1px solid #027777;
+}
+
+.rounded {
+  margin-top: 4px;
+  border: 1px solid rgb(29, 180, 41);
+  border-radius: 20px;
+}
+
+.left {
+  /* margin-top: 10px;
+  border-left: 1px solid maroon; */
+  border-width: 15px;
+  border-style: dashed;
+
+  border-color: maroon;
+}
